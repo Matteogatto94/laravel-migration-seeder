@@ -5,7 +5,7 @@
     <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Welcome to Trenitalia</h1>
         <p class="fs-4">Buy your tickets Now</p>
-        <a class="btn btn-primary btn-lg">Buy Now</a>
+        <a class="btn btn-primary btn-lg" href="{{ route('tickets') }}">Buy Now</a>
     </div>
 </div>
 
